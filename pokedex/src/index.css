@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  --bg: #27184d;
+  --card-bg: #d8b4f2;
+  --accent: #06b6d4;
+  --text: #2d1052;
+  --text-muted: #8b6aaa;
+  --corner-radius: 12px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: 'Roboto', sans-serif; cursor: pointer; border: none; outline: none; }
+
+/* Type badges */
+.type { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 700; text-transform: capitalize; color: white; }
+.type.normal   { background: #9a9a7a; }
+.type.fire     { background: #ff6b35; }
+.type.water    { background: #4d9de0; }
+.type.grass    { background: #3bb273; }
+.type.electric { background: #f7b731; color: #333; }
+.type.ice      { background: #74d7e8; color: #333; }
+.type.fighting { background: #c0392b; }
+.type.poison   { background: #9b59b6; }
+.type.ground   { background: #c9a96e; color: #333; }
+.type.flying   { background: #89a8d8; color: #333; }
+.type.psychic  { background: #e84393; }
+.type.bug      { background: #7db249; }
+.type.rock     { background: #8a7a5a; }
+.type.ghost    { background: #5c4b7d; }
+.type.dragon   { background: #6c3bdb; }
+.type.dark     { background: #4a3728; }
+.type.steel    { background: #7fa0b5; color: #333; }
+.type.fairy    { background: #e8a6d4; color: #333; }

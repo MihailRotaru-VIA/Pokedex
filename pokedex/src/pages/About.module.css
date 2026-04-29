@@ -1,0 +1,9 @@
+.main { max-width: 600px; margin: 0 auto; padding: 3rem 1.5rem; }
+.card { background: #1a0f38; border: 2px solid #3d2070; border-radius: 20px; padding: 2.5rem; }
+.backBtn { padding: 0.5rem 1rem; background: transparent; border: 2px solid #3d2070; color: #c4a8e0; border-radius: var(--corner-radius); font-weight: 700; cursor: pointer; margin-bottom: 1.5rem; transition: all 0.2s; font-family: 'Roboto', sans-serif; }
+.backBtn:hover { border-color: var(--accent); color: var(--accent); }
+.title { font-size: 2rem; font-weight: 900; color: var(--accent); margin-bottom: 1rem; }
+.desc { color: #c4a8e0; line-height: 1.8; margin-bottom: 1.5rem; }
+.desc a { color: var(--accent); text-decoration: underline; }
+.stack { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag { padding: 0.4rem 1rem; background: #0f0a24; border: 1px solid #3d2070; border-radius: 8px; font-weight: 700; color: #c4a8e0; font-size: 0.9rem; }

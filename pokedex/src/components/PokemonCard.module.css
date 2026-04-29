@@ -1,0 +1,21 @@
+.card {
+  background: var(--card-bg);
+  border-radius: var(--corner-radius);
+  padding: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(6,182,212,0.25);
+}
+
+.num { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); align-self: flex-end; }
+.sprite { width: 110px; height: 110px; object-fit: contain; }
+.name { font-size: 0.9rem; font-weight: 700; text-transform: capitalize; color: var(--text); }
+.types { display: flex; gap: 0.35rem; flex-wrap: wrap; justify-content: center; }

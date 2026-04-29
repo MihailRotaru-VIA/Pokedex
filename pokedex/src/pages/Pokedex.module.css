@@ -1,0 +1,47 @@
+.main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
+
+.title { font-size: 2.5rem; font-weight: 900; color: var(--accent); }
+
+.aboutBtn {
+  padding: 0.6rem 1.4rem;
+  background: #1a0f38;
+  border: 2px solid #3d2070;
+  color: #c4a8e0;
+  border-radius: var(--corner-radius);
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.aboutBtn:hover { border-color: var(--accent); color: var(--accent); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.skeleton {
+  height: 220px;
+  background: var(--card-bg);
+  border-radius: var(--corner-radius);
+  opacity: 0.3;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.15} }
+
+.pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 2.5rem; }
+
+.pageBtn {
+  padding: 0.6rem 1.4rem;
+  background: #1a0f38;
+  border: 2px solid #3d2070;
+  color: #c4a8e0;
+  border-radius: var(--corner-radius);
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.pageBtn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.pageBtn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+.pageInfo { color: var(--accent); font-weight: 700; }
